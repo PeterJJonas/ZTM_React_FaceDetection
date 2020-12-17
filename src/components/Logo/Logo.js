@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import Tilt from 'react-tilt';
 import R_logo from './Logo.png';
 import './Logo.css';
