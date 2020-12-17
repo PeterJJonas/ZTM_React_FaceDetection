@@ -82,7 +82,7 @@ class App extends Component {
         />
         <Navigation />
         { this.state.route === 'signin'
-          ? <SignIn onRouteCHange={this.onRouteChange}/>
+          ? <SignIn onRouteChange={this.onRouteChange}/>
           : <div>
             {/* <Logo /> */}
             <Rank />
